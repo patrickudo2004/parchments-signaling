@@ -1,0 +1,13 @@
+{
+    "name": "parchments-signaling",
+    "version": "1.0.0",
+    "description": "Private signaling server for Parchments collaboration",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "dependencies": {
+        "ws": "^8.13.0",
+        "y-webrtc": "^10.2.5"
+    }
+}
